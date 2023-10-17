@@ -4,8 +4,8 @@ using System.Security.Cryptography.X509Certificates;
 namespace Calculadora;
 
 /// <summary>
-/// Clase que Implenta la Interfaz del Menu
-/// 10/10/2023 - DMN
+/// Clase que Implenta la Interfaz del Menu 
+/// 17/10/2023 - DMN
 /// </summary>
 
 class Program
@@ -28,13 +28,6 @@ class Program
 
             switch (seleccionUsuario)
             {
-
-              /*  public int peticionNumero()
-                 {
-                Console.WriteLine("Dime un Numero");
-                Console.WriteLine("Dime un Segundo Numero")
-                  } Este metodo no tiene que estar aqui*/
-
                 case 1:
                     Console.WriteLine("[INFO] - Seleccion de Salida");
                     cerrarCal=true;

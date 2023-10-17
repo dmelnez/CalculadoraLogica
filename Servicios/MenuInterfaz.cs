@@ -9,14 +9,14 @@ namespace Calculadora.Servicios
 
     /// <summary>
     /// Interfaz que contiene la relacion de metodos con el menu
-    /// 10/10/2023 - DMN
+    /// 17/10/2023 - DMN
     /// </summary>
 
     internal interface MenuInterfaz
     {
         /// <summary>
-        /// Metodo que lanza el mensaje de bienvenidaUsuario al usuario
-        /// 10/10/2023 - DMN
+        /// Metodo que lanza el mensaje de bienvenidaUsuario
+        /// 17/10/2023 - DMN
         /// </summary>
 
 
@@ -25,8 +25,8 @@ namespace Calculadora.Servicios
 
 
         /// <summary>
-        /// Metodo que Muestra el menu de seleccion y recoger el valor introducido por el usuario
-        /// 10/10/2023
+        /// Metodo que Muestra el menu de seleccion y recoger el valor introducido
+        /// 17/10/2023
         /// </summary>
         /// <returns>Entero con la Opcion Seleecionada</returns>
 

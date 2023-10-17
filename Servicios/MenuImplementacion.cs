@@ -7,11 +7,11 @@ using System.Threading.Tasks;
 
 namespace Calculadora.Servicios
 {
-    internal class MenuImplementacion : MenuInterfaz /*Conexion de la implementacion con la Interfaz*/
+    internal class MenuImplementacion : MenuInterfaz 
     {
         public void BienvenidaUsuario()
         {
-            string mensajeBienvenidaU = "Bienvenido a la Calculadora";
+            string mensajeBienvenidaU = "Bienvenido a la Calculadora Logica";
             Console.WriteLine(mensajeBienvenidaU);
         }
 
